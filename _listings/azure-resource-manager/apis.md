@@ -26,7 +26,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/azure-resource-manager/resourceid-head.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/azure-resource-manager/resourceid-delete.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
