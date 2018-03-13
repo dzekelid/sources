@@ -33,7 +33,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/akamai/config-gtm-v1-domains-domain-resources-resourcename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/akamai/config-gtm-v1-domains-domain-resources-resourcename-put.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
