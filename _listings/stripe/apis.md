@@ -33,7 +33,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/stripe/sources-source-mandate-notifications-mandate-notification-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/stripe/sources-source-source-transactions-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
