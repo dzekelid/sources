@@ -28,7 +28,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/datagov/harvest-sources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/datagov/me-org-community-resources-get.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
