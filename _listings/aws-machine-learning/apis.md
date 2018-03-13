@@ -36,7 +36,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/aws-machine-learning/action-createdatasourcefromrds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sources/master/_listings/aws-machine-learning/action-createdatasourcefromredshift-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
