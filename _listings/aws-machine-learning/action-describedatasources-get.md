@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDataSources&k=1:
+  /?Action=DescribeDataSources:
     get:
       summary: ' Describe Data Sources '
       description: Returns a list of DataSource that match the search criteria in
