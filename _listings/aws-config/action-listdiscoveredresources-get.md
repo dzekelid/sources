@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListDiscoveredResources&k=1:
+  /?Action=ListDiscoveredResources:
     get:
       summary: ' List Discovered Resources '
       description: Accepts a resource type and returns a list of resource identifiers
