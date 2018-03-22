@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListEventSourceMappings&k=1:
+  /?Action=ListEventSourceMappings:
     get:
       summary: ' List Event Source Mappings '
       description: "Returns a list of event source mappings you created using the
