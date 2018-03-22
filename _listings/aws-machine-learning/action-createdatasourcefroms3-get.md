@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDataSourceFromS3&k=1:
+  /?Action=CreateDataSourceFromS3:
     get:
       summary: ' Create Data Source From S3 '
       description: Creates a DataSource object
