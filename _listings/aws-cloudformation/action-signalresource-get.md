@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SignalResource&k=1:
+  /?Action=SignalResource:
     get:
       summary: ' Signal Resource '
       description: Sends a signal to the specified resource with a success or failure
