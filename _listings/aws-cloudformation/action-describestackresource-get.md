@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStackResource&k=1:
+  /?Action=DescribeStackResource:
     get:
       summary: ' Describe Stack Resource '
       description: Returns a description of the specified resource in the specified
