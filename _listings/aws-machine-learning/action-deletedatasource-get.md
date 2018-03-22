@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDataSource&k=1:
+  /?Action=DeleteDataSource:
     get:
       summary: ' Delete Data Source '
       description: Assigns the DELETED status to a DataSource, rendering it unusable
