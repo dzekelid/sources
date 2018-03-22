@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDataSourceFromRDS&k=1:
+  /?Action=CreateDataSourceFromRDS:
     get:
       summary: ' Create Data Source From R D S '
       description: Creates a DataSource object from an
