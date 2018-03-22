@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListTagsForResource&k=1:
+  /?Action=ListTagsForResource:
     get:
       summary: ' List Tags For Resource '
       description: Lists all tags associated with an assessment template
