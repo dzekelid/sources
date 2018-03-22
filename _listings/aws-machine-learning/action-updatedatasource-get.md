@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateDataSource&k=1:
+  /?Action=UpdateDataSource:
     get:
       summary: ' Update Data Source '
       description: Updates the DataSourceName of a DataSource
