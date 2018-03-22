@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEventSourceMapping&k=1:
+  /?Action=DeleteEventSourceMapping:
     get:
       summary: ' Delete Event Source Mapping '
       description: Removes an event source mapping
