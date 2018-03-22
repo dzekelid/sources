@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEventSourceMapping&k=1:
+  /?Action=CreateEventSourceMapping:
     get:
       summary: ' Create Event Source Mapping '
       description: Identifies a stream as an event source for a Lambda function
