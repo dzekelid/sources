@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateEventSourceMapping&k=1:
+  /?Action=UpdateEventSourceMapping:
     get:
       summary: ' Update Event Source Mapping '
       description: You can update an event source mapping
