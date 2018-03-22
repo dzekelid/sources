@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTagsForResource&k=1:
+  /?Action=SetTagsForResource:
     get:
       summary: ' Set Tags For Resource '
       description: |-
