@@ -28,7 +28,7 @@ apis:
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-dataset-resources-rid-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-dataset-resources-rid-upload-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
