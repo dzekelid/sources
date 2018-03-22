@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStackResources&k=1:
+  /?Action=DescribeStackResources:
     get:
       summary: ' Describe Stack Resources '
       description: Returns AWS resource descriptions for running and deleted stacks
