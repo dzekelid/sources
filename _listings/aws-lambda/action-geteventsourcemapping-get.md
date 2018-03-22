@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetEventSourceMapping&k=1:
+  /?Action=GetEventSourceMapping:
     get:
       summary: ' Get Event Source Mapping '
       description: Returns configuration information for the specified event source
