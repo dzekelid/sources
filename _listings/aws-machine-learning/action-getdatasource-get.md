@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetDataSource&k=1:
+  /?Action=GetDataSource:
     get:
       summary: ' Get Data Source '
       description: Returns a DataSource that includes metadata and data file information,
