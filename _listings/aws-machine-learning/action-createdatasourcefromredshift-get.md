@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDataSourceFromRedshift&k=1:
+  /?Action=CreateDataSourceFromRedshift:
     get:
       summary: ' Create Data Source From Redshift '
       description: Creates a DataSource from a database hosted on an Amazon Redshift
