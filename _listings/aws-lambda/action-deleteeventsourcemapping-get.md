@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Delete Event Source Mapping
   version: 1.0.0
+  description: Removes an event source mapping.
 schemes:
 - http
 produces:
