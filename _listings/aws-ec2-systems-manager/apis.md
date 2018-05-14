@@ -37,7 +37,24 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-ec2-systems-manager/action-addtagstoresource-get.md
+- name: Amazon EC2 Systems Manager API Add Tags To Resource
+  description: Adds or overwrites one or more tags for the specified resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: http:://{host}//
+  tags: Sources
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-ec2-systems-manager/action-addtagstoresource-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/ec2/systems-manager/faqs/
+- type: x-getting-started
+  url: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/systems-manager.html
+- type: x-website
+  url: https://aws.amazon.com/ec2/systems-manager/
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
 - type: x-faq
