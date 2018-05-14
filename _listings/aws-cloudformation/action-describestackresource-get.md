@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFormation API
+  title: AWS CloudFormation API Describe Stack Resource
   version: 1.0.0
+  description: Returns a description of the specified resource in the specified stack.
 schemes:
 - http
 produces:
