@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Sources Source Source Transactions Source Transaction
+  description: Retrieve an existing source transaction object. Supply the unique source
+    ID from a source creation request and the source transaction ID and Stripe will
+    return the corresponding up-to-date source object information.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
