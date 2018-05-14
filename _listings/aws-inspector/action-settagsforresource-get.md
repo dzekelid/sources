@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Set Tags For Resource
   version: 1.0.0
+  description: |-
+    Sets tags (key and value pairs) to the assessment template that is specified by the
+             ARN of the assessment template.
 schemes:
 - http
 produces:
