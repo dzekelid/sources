@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Create Event Source Mapping
   version: 1.0.0
+  description: Identifies a stream as an event source for a Lambda function.
 schemes:
 - http
 produces:
