@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Get Event Source Mapping
   version: 1.0.0
+  description: Returns configuration information for the specified event source mapping
+    (see.
 schemes:
 - http
 produces:
