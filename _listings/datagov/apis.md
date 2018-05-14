@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/me-org-community-resources-get.md
-- name: Data.gov API Add Datasets Community Resources
-  description: Create a new community resource
+- name: Data.gov API Delete Datasets Community Resources Community
+  description: Delete a given community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-community-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-community-delete-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
