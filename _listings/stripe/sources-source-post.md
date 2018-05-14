@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Sources Source
+  description: Updates the specified source by setting the values of the parameters
+    passed. Any parameters not provided will be left unchanged.This request accepts
+    the metadata and owner as arguments. It is also possible to update type specific
+    information for selected payment methods. Please refer to our payment method guides
+    for more detail.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
