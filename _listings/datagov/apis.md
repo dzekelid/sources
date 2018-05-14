@@ -29,15 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/me-org-community-resources-get.md
-- name: Data.gov API Put Datasets Dataset Resources
-  description: Reorder resources
+- name: Data.gov API Delete Datasets Dataset Resources R
+  description: Delete a given resource on a given dataset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-dataset-resources-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-dataset-resources-rid-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-dataset-resources-rid-delete-postman.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
