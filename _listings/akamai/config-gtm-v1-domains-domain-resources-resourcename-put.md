@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Create or Update a Resource
+  description: Create or Update a Resource
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,11 +19,11 @@ paths:
       description: Create or Update a Resource
       operationId: configgtmv1domainsdomainresourcesresourcename
       parameters:
-      - in: String
+      - in: query
         name: domain
         description: Name of Traffic Management domain
         type: string
-      - in: String
+      - in: query
         name: resourceName
         description: Name of Resource to create or update
         type: string
