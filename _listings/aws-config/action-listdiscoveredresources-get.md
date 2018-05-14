@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API List Discovered Resources
   version: 1.0.0
+  description: Accepts a resource type and returns a list of resource identifiers
+    for the resources of that type.
 schemes:
 - http
 produces:
