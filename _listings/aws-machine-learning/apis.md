@@ -37,16 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-updatedatasource-get.md
-- name: AWS Machine Learning API Get Data Source
-  description: Returns a DataSource that includes metadata and data file information,
-    as well as the current status of the DataSource.
+- name: AWS Machine Learning API Update Data Source
+  description: Updates the DataSourceName of a DataSource.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-getdatasource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-updatedatasource-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
