@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API List Event Source Mappings
   version: 1.0.0
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
 schemes:
 - http
 produces:
