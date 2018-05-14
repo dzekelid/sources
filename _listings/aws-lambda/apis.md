@@ -30,16 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-updateeventsourcemapping-get.md
-- name: AWS Lambda API Get Event Source Mapping
-  description: Returns configuration information for the specified event source mapping
-    (see.
+- name: AWS Lambda API List Event Source Mappings
+  description: "Returns a list of event source mappings you created using the CreateEventSourceMapping
+    \n      (see."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-geteventsourcemapping-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-listeventsourcemappings-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
