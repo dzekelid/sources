@@ -26,7 +26,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/bmc-software/v1-sources-byname-delete.md
+- name: BMC Software API Remove Old Sources By Name
+  description: Remove Old Sources from your account by using a list of names
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bmc-truesight.png
+  humanURL: http://www.bmc.com
+  baseURL: https://{host}//
+  tags: Sources
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/bmc-software/v1-sources-byname-delete.md
 x-common:
+- type: x-blog
+  url: http://www.bmc.com/blogs
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/BmcBlogs
+- type: x-github
+  url: https://github.com/bmcsoftware
+- type: x-twitter
+  url: https://twitter.com/bmcsoftware
+- type: x-website
+  url: http://www.bmc.com
 - type: x-blog
   url: http://www.bmc.com/blogs
 - type: x-blog-rss
