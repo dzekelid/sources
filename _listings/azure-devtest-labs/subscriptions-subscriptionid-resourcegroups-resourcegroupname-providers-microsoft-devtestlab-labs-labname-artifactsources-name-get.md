@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: DevTestLabsClient
-  description: The DevTest Labs Client.
+  title: Azure DevTest Labs API Artifact Sources Get
+  description: Get artifact source.
   version: 1.0.0
 host: management.azure.com
 basePath: /
