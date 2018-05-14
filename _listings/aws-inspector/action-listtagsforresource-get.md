@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API List Tags For Resource
   version: 1.0.0
+  description: Lists all tags associated with an assessment template.
 schemes:
 - http
 produces:
