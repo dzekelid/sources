@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lambda API
+  title: AWS Lambda API Update Event Source Mapping
   version: 1.0.0
+  description: You can update an event source mapping.
 schemes:
 - http
 produces:
