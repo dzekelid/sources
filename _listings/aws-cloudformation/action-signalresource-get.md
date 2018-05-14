@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudFormation API
+  title: AWS CloudFormation API Signal Resource
   version: 1.0.0
+  description: Sends a signal to the specified resource with a success or failure
+    status.
 schemes:
 - http
 produces:
