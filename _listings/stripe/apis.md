@@ -34,19 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-verify-post.md
-- name: Stripe Add Sources Source
-  description: Updates the specified source by setting the values of the parameters
-    passed. Any parameters not provided will be left unchanged.This request accepts
-    the metadata and owner as arguments. It is also possible to update type specific
-    information for selected payment methods. Please refer to our payment method guides
-    for more detail.
+- name: Stripe Get Sources Source Mandate Notifications Mandate Notification
+  description: Get Sources, Source, Mandate, Notifications, Mandate, Notification
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-mandate-notifications-mandate-notification-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-mandate-notifications-mandate-notification-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
