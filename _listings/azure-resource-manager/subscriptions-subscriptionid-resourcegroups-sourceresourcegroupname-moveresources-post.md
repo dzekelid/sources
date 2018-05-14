@@ -1,10 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: SubscriptionClient
-  description: All resource groups and resources exist within subscriptions. These
-    operation enable you get information about your subscriptions and tenants. A tenant
-    is a dedicated instance of Azure Active Directory (Azure AD) for your organization.
+  title: Azure Resource Manager API Moves resources from one resource group to another
+    resource group.
+  description: The resources to move must be in the same source resource group. The
+    target resource group may be in a different subscription. When moving resources,
+    both the source group and the target group are locked for the duration of the
+    operation. Write and delete operations are blocked on the groups until the move
+    completes.
   version: 1.0.0
 host: management.azure.com
 basePath: /
