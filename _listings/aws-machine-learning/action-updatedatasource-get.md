@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Update Data Source
   version: 1.0.0
+  description: Updates the DataSourceName of a DataSource.
 schemes:
 - http
 produces:
