@@ -27,17 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/resourceid-get.md
-- name: Azure Resource Manager API Resources Delete By Id
-  description: Deletes a resource by ID.
+- name: Azure Resource Manager API Resources Create Or Update By Id
+  description: Create a resource by ID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/resourceid-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/resourceid-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/resourceid-put.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
