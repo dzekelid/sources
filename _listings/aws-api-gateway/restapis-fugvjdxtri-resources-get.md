@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Restapi Resources
   version: 1.0.0
+  description: Gets an API&#39;s resource collection as represented by a Resources
+    instance.
 schemes:
 - http
 produces:
