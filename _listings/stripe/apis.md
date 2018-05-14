@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-verify-post.md
-- name: Stripe Get Customers Customer Sources
-  description: Get Customers, Customer, Sources
+- name: Stripe Add Customers Customer Sources
+  description: Post Customers, Customer, Sources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
