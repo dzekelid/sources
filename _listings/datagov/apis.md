@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/me-org-community-resources-get.md
-- name: Data.gov API Get Datasets Community Resources Community
-  description: Retrieve a community resource given its identifier
+- name: Data.gov API Put Datasets Community Resources Community
+  description: Update a given community resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-community-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-community-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/datasets-community-resources-community-put.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
