@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/me-org-community-resources-get.md
-- name: Data.gov API Get Harvest Sources
-  description: List all harvest sources
+- name: Data.gov API Add Harvest Sources
+  description: Create a new harvests source
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
   humanURL: http://data.gov/
   baseURL: https://catalog.data.gov//api/3/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/harvest-sources-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/harvest-sources-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/datagov/harvest-sources-post.md
 x-common:
 - type: x-blog
   url: https://www.data.gov/meta/
