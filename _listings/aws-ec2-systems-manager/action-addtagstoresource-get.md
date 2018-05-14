@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API Add Tags To Resource
   version: 1.0.0
+  description: Adds or overwrites one or more tags for the specified resource.
 schemes:
 - http
 produces:
