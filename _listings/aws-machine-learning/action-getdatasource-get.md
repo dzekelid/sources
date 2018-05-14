@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Get Data Source
   version: 1.0.0
+  description: Returns a DataSource that includes metadata and data file information,
+    as well as the current status of the DataSource.
 schemes:
 - http
 produces:
