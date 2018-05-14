@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Data Sources
+  description: List Data Sources
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,7 +19,7 @@ paths:
       description: List Data Sources
       operationId: securitymonitorv1reportpacksreportpackiddatasources
       parameters:
-      - in: Number
+      - in: query
         name: reportPackId
         description: Report pack ID
         type: string
