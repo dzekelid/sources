@@ -24,7 +24,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-cloudformation/action-signalresource-get.md
+- name: AWS CloudFormation API Describe Stack Resource
+  description: Returns a description of the specified resource in the specified stack.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
+  humanURL: https://aws.amazon.com/cloudformation/
+  baseURL: http:://{host}//
+  tags: Sources
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-cloudformation/action-describestackresource-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/cloudformation/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudformation/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudformation/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/cloudformation/aws-cloudformation-templates/
+- type: x-website
+  url: https://aws.amazon.com/cloudformation/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
 - type: x-documentation
