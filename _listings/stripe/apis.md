@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-verify-post.md
-- name: Stripe Delete Customers Customer Sources
-  description: Delete Customers, Customer, Sources
+- name: Stripe Get Customers Customer Sources
+  description: Get Customers, Customer, Sources
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-id-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/customers-customer-sources-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
