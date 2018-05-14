@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Create Data Source From Redshift
   version: 1.0.0
+  description: Creates a DataSource from a database hosted on an Amazon Redshift cluster.
 schemes:
 - http
 produces:
