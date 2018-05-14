@@ -30,15 +30,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-updateeventsourcemapping-get.md
-- name: AWS Lambda API Delete Event Source Mapping
-  description: Removes an event source mapping.
+- name: AWS Lambda API Get Event Source Mapping
+  description: Returns configuration information for the specified event source mapping
+    (see.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png
   humanURL: http://docs.aws.amazon.com/lambda/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-deleteeventsourcemapping-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/action-geteventsourcemapping-get.md
 x-common:
 - type: x-authentication
   url: http://docs.aws.amazon.com/lambda/latest/dg/lambda-auth-and-access-control.html
