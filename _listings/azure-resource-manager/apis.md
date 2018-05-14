@@ -27,20 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/resourceid-get.md
-- name: Azure Resource Manager API Moves resources from one resource group to another
-    resource group.
-  description: The resources to move must be in the same source resource group. The
-    target resource group may be in a different subscription. When moving resources,
-    both the source group and the target group are locked for the duration of the
-    operation. Write and delete operations are blocked on the groups until the move
-    completes.
+- name: Azure Resource Manager API Resources List
+  description: Get all the resources in a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
   humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
   baseURL: http:://management.azure.com//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-sourceresourcegroupname-moveresources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resources-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resources-get-postman.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
