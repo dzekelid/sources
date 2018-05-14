@@ -34,15 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-verify-post.md
-- name: Stripe Add Sources
-  description: Creates a new source object.
+- name: Stripe Get Sources Source
+  description: Retrieves an existing source object. Supply the unique source ID from
+    a source creation request and Stripe will return the corresponding up-to-date
+    source object information.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/sources-source-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
