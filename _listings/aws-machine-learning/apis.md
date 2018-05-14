@@ -37,15 +37,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-updatedatasource-get.md
-- name: AWS Machine Learning API Delete Data Source
-  description: Assigns the DELETED status to a DataSource, rendering it unusable.
+- name: AWS Machine Learning API Describe Data Sources
+  description: Returns a list of DataSource that match the search criteria in the
+    request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-deletedatasource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-describedatasources-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
