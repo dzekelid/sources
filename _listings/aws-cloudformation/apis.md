@@ -24,15 +24,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-cloudformation/action-signalresource-get.md
-- name: AWS CloudFormation API Describe Stack Resource
-  description: Returns a description of the specified resource in the specified stack.
+- name: AWS CloudFormation API Describe Stack Resources
+  description: Returns AWS resource descriptions for running and deleted stacks.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudFormation.png
   humanURL: https://aws.amazon.com/cloudformation/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-cloudformation/action-describestackresource-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-cloudformation/action-describestackresources-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/cloudformation/index.html
