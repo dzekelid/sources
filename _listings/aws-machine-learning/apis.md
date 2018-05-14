@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-updatedatasource-get.md
-- name: AWS Machine Learning API Create Data Source From R D S
-  description: Creates a DataSource object from an.
+- name: AWS Machine Learning API Create Data Source From Redshift
+  description: Creates a DataSource from a database hosted on an Amazon Redshift cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-createdatasourcefromrds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/action-createdatasourcefromredshift-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
