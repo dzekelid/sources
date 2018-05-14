@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Data.gov API
-  description: The data.gov catalog is powered by CKAN, a powerful open source data
-    platform that includes a robust API. Please be aware that data.gov and the data.gov
-    CKAN API only contain metadata about datasets. This metadata includes URLs and
-    descriptions of datasets, but it does not include the actual data within each
-    dataset.
+  title: Data.gov API Add Datasets Dataset Resources R Upload
+  description: Upload a file related to a given resource on a given dataset
   version: "3"
 host: catalog.data.gov
 basePath: /api/3/
