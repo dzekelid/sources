@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Sources Source Source Transactions
+  description: Get Sources, Source, Source, Transactions
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
