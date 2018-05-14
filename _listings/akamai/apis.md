@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Resources
-  description: List Resources
+- name: Akamai API Get a Resource
+  description: Get a Resource
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Sources
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/akamai/config-gtm-v1-domains-domain-resources-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/akamai/config-gtm-v1-domains-domain-resources-resourcename-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
