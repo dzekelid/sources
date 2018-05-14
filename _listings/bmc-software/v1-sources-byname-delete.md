@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: BMC Software Merged API
+  title: BMC Software API Remove Old Sources By Name
   version: 1.0.0
+  description: Remove Old Sources from your account by using a list of names
 schemes:
 - http
 produces:
