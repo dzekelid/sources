@@ -1,0 +1,144 @@
+---
+swagger: "2.0"
+x-collection-name: AWS Lambda
+x-complete: 0
+info:
+  title: AWS Lambda API Get Event Source Mapping
+  version: 1.0.0
+  description: Returns configuration information for the specified event source mapping
+    (see.
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=CreateEventSourceMapping:
+    get:
+      summary: Create Event Source Mapping
+      description: Identifies a stream as an event source for a Lambda function.
+      operationId: createEventSourceMapping
+      x-api-path-slug: actioncreateeventsourcemapping-get
+      parameters:
+      - in: query
+        name: BatchSize
+        description: The largest number of records that AWS Lambda will retrieve from
+          your event source at the time of invoking your function
+        type: string
+      - in: query
+        name: Enabled
+        description: Indicates whether AWS Lambda should begin polling the event source
+        type: string
+      - in: query
+        name: EventSourceArn
+        description: The Amazon Resource Name (ARN) of the Amazon Kinesis or the Amazon
+          DynamoDB stream that is the event source
+        type: string
+      - in: query
+        name: FunctionName
+        description: The Lambda function to invoke when AWS Lambda detects an event
+          on the stream
+        type: string
+      - in: query
+        name: StartingPosition
+        description: The position in the stream where AWS Lambda should start reading
+        type: string
+      - in: query
+        name: StartingPositionTimestamp
+        description: The timestamp of the data record from which to start reading
+        type: string
+      responses:
+        1:
+          description: Photoset not found - The photoset id passed was not the id
+            of avalid photoset owned by the calling user
+        2:
+          description: Photo not found - The photo id passed was not the id of a valid
+            photo owned by the calling user
+        95:
+          description: SSL is required - SSL is required to access the Flickr API
+        96:
+          description: Invalid signature - The passed signature was invalid
+        97:
+          description: Missing signature - The call required signing but no signature
+            was sent
+        98:
+          description: Login failed / Invalid auth token - The login details or auth
+            token passed were invalid
+        99:
+          description: User not logged in / Insufficient permissions - The method
+            requires user authentication but the user was not logged in, or the authenticated
+            method call did not have the required permissions
+        100:
+          description: Invalid API Key - The API key passed was not valid or has expired
+        105:
+          description: Service currently unavailable - The requested service is temporarily
+            unavailable
+        106:
+          description: Write operation failed - The requested operation failed due
+            to a temporary issue
+        111:
+          description: Format "xxx" not found - The requested response format was
+            not found
+        112:
+          description: Method "xxx" not found - The requested method was not found
+        114:
+          description: Invalid SOAP envelope - The SOAP envelope send in the request
+            could not be parsed
+        115:
+          description: Invalid XML-RPC Method Call - The XML-RPC request document
+            could not be parsed
+        116:
+          description: Bad URL found - One or more arguments contained a URL that
+            has been used for abuse on Flickr
+        200:
+          description: OK
+      tags:
+      - Event Sources
+  /?Action=DeleteEventSourceMapping:
+    get:
+      summary: Delete Event Source Mapping
+      description: Removes an event source mapping.
+      operationId: deleteEventSourceMapping
+      x-api-path-slug: actiondeleteeventsourcemapping-get
+      parameters:
+      - in: query
+        name: UUID
+        description: The event source mapping ID
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Event Sources
+  /?Action=GetEventSourceMapping:
+    get:
+      summary: Get Event Source Mapping
+      description: Returns configuration information for the specified event source
+        mapping (see.
+      operationId: getEventSourceMapping
+      x-api-path-slug: actiongeteventsourcemapping-get
+      parameters:
+      - in: query
+        name: UUID
+        description: The AWS Lambda assigned ID of the event source mapping
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Event Sources
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
