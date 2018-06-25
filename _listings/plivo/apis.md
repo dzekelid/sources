@@ -5,10 +5,10 @@ description: 'Voice & SMS API Platform: Plivo enables businesses and developers 
   tap into powerful Voice and SMS capabilities without carrier lock-in.'
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1113-plivo.jpg
 x-kinRank: "8"
-x-alexaRank: "116335"
+x-alexaRank: "130970"
 tags: Sources
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/plivo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -76,6 +76,8 @@ x-common:
   url: https://www.plivo.com/docs/sdk/ios/
 - type: x-java-sdk
   url: https://www.plivo.com/docs/helpers/java/
+- type: x-linkedin
+  url: https://www.linkedin.com/company/plivo-inc/
 - type: x-node-js-library
   url: https://www.plivo.com/docs/helpers/node/
 - type: x-php-sdk
@@ -93,7 +95,7 @@ x-common:
 - type: x-terms-of-service
   url: https://plivo.com/terms/
 - type: x-twitter
-  url: https://twitter.com/#!/plivo
+  url: https://twitter.com/plivo
 - type: x-website
   url: http:///account
 - type: x-website
