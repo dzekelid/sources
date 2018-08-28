@@ -6,86 +6,92 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: Sources
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO Get Accounts Sources
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Sources
+  x-api-slug: accountsidsources-get
   description: Lists IMAP sources assigned for an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources
-  tags: Accounts,Sources
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-get-openapi.md
-- name: Context.IO Post Accounts Sources
-  x-api-slug: context-io
+- name: Context.IO - Post Accounts Sources
+  x-api-slug: accountsidsources-post
   description: Adds an IMAP account to a given account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources
-  tags: Accounts,Sources
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-post-openapi.md
-- name: Context.IO Get Accounts Sources Label
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-get
   description: Gets parameters and status for an IMAP source.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}
-  tags: Accounts,Sources,Label
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-get-openapi.md
-- name: Context.IO Put Accounts Sources Label
-  x-api-slug: context-io
+- name: Context.IO - Put Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-put
   description: Modifies a data source on a given account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}
-  tags: Accounts,Sources,Label
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-put-openapi.md
-- name: Context.IO Delete Accounts Sources Label
-  x-api-slug: context-io
+- name: Context.IO - Delete Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-delete
   description: Removes a data source of an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}
-  tags: Accounts,Sources,Label
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-delete-openapi.md
-- name: Context.IO Get Accounts Sources Label Folders
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Sources Label Folders
+  x-api-slug: accountsidsourceslabelfolders-get
   description: Lists folders in an IMAP source. Returns folders existing in a given
     IMAP account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}/folders
-  tags: Accounts,Sources,Label,Folders
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfolders-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfolders-get-openapi.md
-- name: Context.IO Put Accounts Sources Label Folders Folder
-  x-api-slug: context-io
+- name: Context.IO - Put Accounts Sources Label Folders Folder
+  x-api-slug: accountsidsourceslabelfoldersfolder-put
   description: |-
     Creates a folder on an IMAP source. A new folder can be added to an IMAP source by PUTting the desired path under the sources/folders resource.
     Working with server-specific hierarchy delimiters:
@@ -101,51 +107,215 @@ apis:
     Both examples above are equivalent and will have the same result no matter what the IMAP server expects as the actual hierarchy delimiter.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}/folders/{folder}
-  tags: Accounts,Sources,Label,Folders,Folder
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfoldersfolder-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfoldersfolder-put-openapi.md
-- name: Context.IO Get Accounts Sources Label Sync
-  x-api-slug: context-io
+- name: Context.IO - Get Accounts Sources Label Sync
+  x-api-slug: accountsidsourceslabelsync-get
   description: Gets the sync status of a data source. Returns the timestamps for the
     last time the source has been synced with the origin mailbox.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}/sync
-  tags: Accounts,Sources,Label,Sync
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-get-openapi.md
-- name: Context.IO Post Accounts Sources Label Sync
-  x-api-slug: context-io
+- name: Context.IO - Post Accounts Sources Label Sync
+  x-api-slug: accountsidsourceslabelsync-post
   description: Triggers a sync of a data source. This will start a sync job for the
     source.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///accounts/{id}/sources/{label}/sync
-  tags: Accounts,Sources,Label,Sync
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
+- name: Context.IO - Get Accounts Messages Message Source
+  x-api-slug: accountsidmessagesmessage-idsource-get
+  description: 'Fetches the message source. Returns the raw RFC-822 message source
+    for the message (including attachments) with no parsing or decoding to any portions
+    of the message. On-demand data retrieval: since we do not keep full copies of
+    emails on our servers, this call triggers a connection to the IMAP server to fetch
+    the message. Attachments are part of the message source so they will impact how
+    fast this call responds.'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
-  tags: Sources
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidmessagesmessage-idsource-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidmessagesmessage-idsource-get-openapi.md
+- name: Context.IO - Get Accounts Sources
+  x-api-slug: accountsidsources-get
+  description: Lists IMAP sources assigned for an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-get-openapi.md
+- name: Context.IO - Post Accounts Sources
+  x-api-slug: accountsidsources-post
+  description: Adds an IMAP account to a given account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsources-post-openapi.md
+- name: Context.IO - Get Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-get
+  description: Gets parameters and status for an IMAP source.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-get-openapi.md
+- name: Context.IO - Put Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-put
+  description: Modifies a data source on a given account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-put-openapi.md
+- name: Context.IO - Delete Accounts Sources Label
+  x-api-slug: accountsidsourceslabel-delete
+  description: Removes a data source of an account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabel-delete-openapi.md
+- name: Context.IO - Get Accounts Sources Label Folders
+  x-api-slug: accountsidsourceslabelfolders-get
+  description: Lists folders in an IMAP source. Returns folders existing in a given
+    IMAP account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfolders-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfolders-get-openapi.md
+- name: Context.IO - Put Accounts Sources Label Folders Folder
+  x-api-slug: accountsidsourceslabelfoldersfolder-put
+  description: |-
+    Creates a folder on an IMAP source. A new folder can be added to an IMAP source by PUTting the desired path under the sources/folders resource.
+    Working with server-specific hierarchy delimiters:
+    IMAP servers are free to use the character they want as the folder hierarchy delimiter. The bad news is they don't use the same. The good news is you don't need to know this, we take care of it.
+
+    Then what is that delim parameter for?
+    Good question. By default, we expect you to specify the folder hierarchy using / as the hierarchy delimiter. For example, to create a folder called my folder under the folder base folder, you would call:
+    PUT /2.0/accounts/<id>/sources/<label>/folders/base+folder/my+folder
+
+    No matter what's the actual hierarchy delimiter the IMAP server expects, this call will work. However, say you need to use another character as the delimiter, here's how you'd do it:
+    PUT /2.0/accounts/<id>/sources/<label>/folders/base+folder.my+folder?delim=.
+
+    Both examples above are equivalent and will have the same result no matter what the IMAP server expects as the actual hierarchy delimiter.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfoldersfolder-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelfoldersfolder-put-openapi.md
+- name: Context.IO - Get Accounts Sources Label Sync
+  x-api-slug: accountsidsourceslabelsync-get
+  description: Gets the sync status of a data source. Returns the timestamps for the
+    last time the source has been synced with the origin mailbox.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-get-openapi.md
+- name: Context.IO - Post Accounts Sources Label Sync
+  x-api-slug: accountsidsourceslabelsync-post
+  description: Triggers a sync of a data source. This will start a sync job for the
+    source.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidsourceslabelsync-post-openapi.md
+- name: Context.IO - Get Accounts Messages Message Source
+  x-api-slug: accountsidmessagesmessage-idsource-get
+  description: 'Fetches the message source. Returns the raw RFC-822 message source
+    for the message (including attachments) with no parsing or decoding to any portions
+    of the message. On-demand data retrieval: since we do not keep full copies of
+    emails on our servers, this call triggers a connection to the IMAP server to fetch
+    the message. Attachments are part of the message source so they will impact how
+    fast this call responds.'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
+  humanURL: http://context.io/
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidmessagesmessage-idsource-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/accountsidmessagesmessage-idsource-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://constant.contact.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://context.io.stack.network
 - type: x-base
   url: https://api.context.io/
 - type: x-blog

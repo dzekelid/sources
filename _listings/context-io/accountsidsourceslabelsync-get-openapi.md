@@ -261,6 +261,53 @@ paths:
       - Sources
       - Label
       - Sync
+    post:
+      summary: Post Accounts Sources Label Sync
+      description: Triggers a sync of a data source. This will start a sync job for
+        the source.
+      operationId: Create_syncAccountSource_
+      x-api-path-slug: accountsidsourceslabelsync-post
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: label
+        description: The label property of the source instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Sources
+      - Label
+      - Sync
+  /accounts/{id}/messages/{message_id}/source:
+    get:
+      summary: Get Accounts Messages Message Source
+      description: 'Fetches the message source. Returns the raw RFC-822 message source
+        for the message (including attachments) with no parsing or decoding to any
+        portions of the message. On-demand data retrieval: since we do not keep full
+        copies of emails on our servers, this call triggers a connection to the IMAP
+        server to fetch the message. Attachments are part of the message source so
+        they will impact how fast this call responds.'
+      operationId: getAccountMessageSource_
+      x-api-path-slug: accountsidmessagesmessage-idsource-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Source
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

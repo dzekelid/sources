@@ -197,6 +197,117 @@ paths:
       - Sources
       - Label
       - Folders
+  /accounts/{id}/sources/{label}/folders/{folder}:
+    put:
+      summary: Put Accounts Sources Label Folders Folder
+      description: |-
+        Creates a folder on an IMAP source. A new folder can be added to an IMAP source by PUTting the desired path under the sources/folders resource.
+        Working with server-specific hierarchy delimiters:
+        IMAP servers are free to use the character they want as the folder hierarchy delimiter. The bad news is they don't use the same. The good news is you don't need to know this, we take care of it.
+
+        Then what is that delim parameter for?
+        Good question. By default, we expect you to specify the folder hierarchy using / as the hierarchy delimiter. For example, to create a folder called my folder under the folder base folder, you would call:
+        PUT /2.0/accounts/<id>/sources/<label>/folders/base+folder/my+folder
+
+        No matter what's the actual hierarchy delimiter the IMAP server expects, this call will work. However, say you need to use another character as the delimiter, here's how you'd do it:
+        PUT /2.0/accounts/<id>/sources/<label>/folders/base+folder.my+folder?delim=.
+
+        Both examples above are equivalent and will have the same result no matter what the IMAP server expects as the actual hierarchy delimiter.
+      operationId: createAccountSourceFolder_
+      x-api-path-slug: accountsidsourceslabelfoldersfolder-put
+      parameters:
+      - in: query
+        name: delim
+        description: If / isnt fancy enough as a hierarchy delimiter when specifying
+          the folder you want to create, youre free to use what you want, just make
+          sure you set this delim parameter to tell us what youre using
+      - in: path
+        name: folder
+        description: The full folder path you want to create
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: label
+        description: The label property of the source instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Sources
+      - Label
+      - Folders
+      - Folder
+  /accounts/{id}/sources/{label}/sync:
+    get:
+      summary: Get Accounts Sources Label Sync
+      description: Gets the sync status of a data source. Returns the timestamps for
+        the last time the source has been synced with the origin mailbox.
+      operationId: getAccountSourceSyncStatus_
+      x-api-path-slug: accountsidsourceslabelsync-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: label
+        description: The label property of the source instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Sources
+      - Label
+      - Sync
+    post:
+      summary: Post Accounts Sources Label Sync
+      description: Triggers a sync of a data source. This will start a sync job for
+        the source.
+      operationId: Create_syncAccountSource_
+      x-api-path-slug: accountsidsourceslabelsync-post
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: label
+        description: The label property of the source instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Sources
+      - Label
+      - Sync
+  /accounts/{id}/messages/{message_id}/source:
+    get:
+      summary: Get Accounts Messages Message Source
+      description: 'Fetches the message source. Returns the raw RFC-822 message source
+        for the message (including attachments) with no parsing or decoding to any
+        portions of the message. On-demand data retrieval: since we do not keep full
+        copies of emails on our servers, this call triggers a connection to the IMAP
+        server to fetch the message. Attachments are part of the message source so
+        they will impact how fast this call responds.'
+      operationId: getAccountMessageSource_
+      x-api-path-slug: accountsidmessagesmessage-idsource-get
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: message_id
+        description: Unique id of a message
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Messages
+      - Message
+      - Source
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

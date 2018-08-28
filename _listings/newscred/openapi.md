@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: NewsCred
 x-complete: 1
@@ -146,4 +145,134 @@ paths:
       - News
       - Topic
       - Sources
----
+  source/:
+    get:
+      summary: Source
+      description: Returns the source represented by the specified GUID.
+      operationId: getSource
+      x-api-path-slug: source-get
+      parameters:
+      - in: query
+        name: access_key
+        description: Unique API access key
+      - in: path
+        name: GUID
+        description: GUID representing news source
+      responses:
+        200:
+          description: OK
+      tags:
+      - Source
+  source/{GUID}/articles/:
+    get:
+      summary: Source Articles
+      description: Returns a list of articles provided by the specified source
+      operationId: getSourceGuArticles
+      x-api-path-slug: sourceguidarticles-get
+      parameters:
+      - in: query
+        name: access_key
+        description: Unique API access key
+      - in: query
+        name: article_filter_mode
+        description: Enables article_filter_name and indicates filtering type
+      - in: query
+        name: article_filter_name
+        description: Limit items to a predefined list of articles
+      - in: query
+        name: categories
+        description: Limit items to the categories specified
+      - in: query
+        name: from_date
+        description: Beginning of date range for which items are searched
+      - in: query
+        name: get_topics
+        description: Set to true to include associated topics inline with each article
+      - in: query
+        name: has_images
+        description: Return only articles that have associated images (accessible
+          via article/GUID/images)
+      - in: query
+        name: languages
+        description: Limit items to those in the specified language
+      - in: query
+        name: licensed
+        description: Search exclusively for fully licensed, full text content
+      - in: query
+        name: media_types
+        description: Limit the media type of the returned items
+      - in: query
+        name: offset
+        description: Number of items to skip before beginning the result set
+      - in: query
+        name: pagesize
+        description: Number of items to return
+      - in: query
+        name: sort
+        description: Sort order for returned items
+      - in: query
+        name: topics
+        description: List of topics to retrieve items from
+      - in: query
+        name: topic_filter_mode
+        description: Enables topic_filter_name and indicates filtering type
+      - in: query
+        name: topic_filter_name
+        description: Limit items to a predefined list of topics
+      - in: query
+        name: to_date
+        description: End of date range for which items are searched
+      responses:
+        200:
+          description: OK
+      tags:
+      - News
+      - Source
+      - GUID
+      - Articles
+  source/{GUID}/topics/:
+    get:
+      summary: Source Topics
+      description: Returns a list of topics related to the source specified by the
+        given GUID.
+      operationId: getSourceGuTopics
+      x-api-path-slug: sourceguidtopics-get
+      parameters:
+      - in: query
+        name: access_key
+        description: Unique API access key
+      - in: query
+        name: from_date
+        description: Beginning of date range for which items are searched
+      - in: query
+        name: offset
+        description: Number of items to skip before beginning the result set
+      - in: query
+        name: pagesize
+        description: Number of items to return
+      - in: query
+        name: topics
+        description: List of topics to retrieve items from
+      - in: query
+        name: topic_classifications
+        description: Limit results to those with the specified topic classification
+      - in: query
+        name: topic_filter_mode
+        description: Enables topic_filter_name and indicates filtering type
+      - in: query
+        name: topic_filter_name
+        description: Limit items to a predefined list of topics
+      - in: query
+        name: topic_subclassifications
+        description: Limit results to those with the specified topic sub-classification
+      - in: query
+        name: to_date
+        description: End of date range for which items are searched
+      responses:
+        200:
+          description: OK
+      tags:
+      - News
+      - Source
+      - GUID
+      - Topics

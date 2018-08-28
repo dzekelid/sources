@@ -1,0 +1,508 @@
+{
+	"name": "Streadata.io API Gallery - Sources",
+	"description": "This is a repository of sources APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sources.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://sources.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BMC Software",
+			"x-api-slug": "bmc-software",
+			"description": "Transform your digital enterprise with BMC IT solutions. From mainframe to cloud to mobile, we???ll help you drive innovation and industrial efficiency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/713-bmc-software.jpg",
+			"humanURL": "http://www.bmc.com",
+			"baseURL": "https:///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/bmc-software/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VersaPay",
+			"x-api-slug": "versapay",
+			"description": "VersaPay handles elements of both credit and debit card merchant payment processing in Canada. In offering a host of merchant account services and credit card POS terminals it allows for an efficient merchant payment service in all aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael Gokturk, VersaPay is a Canadian owned and operated national financial transaction services provider partnered with Chase Paymentech. Versapay also offers electronic funds transfer through a system called Versapay EMT.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg",
+			"humanURL": "http://developers.versapay.com/index.html",
+			"baseURL": "https://secure.versapay.com//",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/versapay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pivotal Tracker",
+			"x-api-slug": "pivotal-tracker",
+			"description": "Pivotal Tracker is the agile project management tool of choice for developers around the world for real-time collaboration around a shared, prioritized backlog.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg",
+			"humanURL": "http://pivotaltracker.com",
+			"baseURL": "https://www.pivotaltracker.com//services/v3/",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/pivotal-tracker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CallFire",
+			"x-api-slug": "callfire",
+			"description": "Grow your business with virtual phone numbers, IVR, voice broadcasting, mass text messaging services and power dialing. Try CallFire for FREE!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg",
+			"humanURL": "http://www.callfire.com",
+			"baseURL": "https://www.callfire.com//v2",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/callfire/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VMWare",
+			"x-api-slug": "vmware",
+			"description": "At VMware, we believe that software has the power to unlock new opportunities for people and our planet. We look beyond the barriers of compromise to engineer new ways to make technologies work together seamlessly. Our software forms a digital foundation that powers the apps, services and experiences that are transforming the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/VMware_logo.png",
+			"humanURL": "http://vmware.com",
+			"baseURL": "https://example.com//suite-api/api",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/vmware/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lambda",
+			"x-api-slug": "aws-lambda",
+			"description": "AWS Lambda is a zero-administration compute platform for back-end web developers that runs your code for you in the AWScloudand provides you with a fine-grained pricing structure. AWS Lambda runs your back-end code on its own AWS compute fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances across multiple Availability Zones in a region, which provides the high availability, security, performance, and scalability of the AWS infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSLambda.png",
+			"humanURL": "http://docs.aws.amazon.com/lambda/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"x-api-slug": "aws-kinesis-analytics",
+			"description": "Amazon Kinesis Analytics is the easiest way to process streaming data in real time with standard SQL without having to learn new programming languages or processing frameworks. Amazon Kinesis Analytics enables you to create and run SQL queries on streaming data so that you can gain actionable insights and respond to your business and customer needs promptly.Amazon Kinesis Analytics takes care of everything required to run your queries continuously and scales automatically to match the volume and throughput rate of your incoming data. With Amazon Kinesis Analytics, you only pay for the resources your queries consume. There is no minimum fee or setup cost.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisAnalytics.png",
+			"humanURL": "https://aws.amazon.com/kinesis/analytics/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-kinesis-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Machine Learning",
+			"x-api-slug": "aws-machine-learning",
+			"description": "Amazon Machine Learning is a service that makes it easy for developers of all skill levels to use machine learning technology. Amazon Machine Learning provides visualization tools and wizards that guide you through the process of creating machine learning (ML) models without having to learn complex ML algorithms and technology. Once your models are ready, Amazon Machine Learning makes it easy to obtain predictions for your application using simple APIs, without having to implement custom prediction generation code, or manage any infrastructure.Amazon Machine Learning is based on the same proven, highly scalable, ML technology used for years by Amazon&rsquo;s internal data scientist community. The service uses powerful algorithms to create ML models by finding patterns in your existing data. Then, Amazon Machine Learning uses these models to process new data and generate predictions for your application.Amazon Machine Learning is highly scalable and can generate billions of predictions daily, and serve those predictions in real-time and at high throughput. With Amazon Machine Learning, there is no upfront hardware or software investment, and you pay as you go, so you can start small and scale as your application grows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png",
+			"humanURL": "https://aws.amazon.com/machine-learning/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"x-api-slug": "oxford-dictionaries",
+			"description": "If you&rsquo;re looking to enhance your app or website with dictionary data, don&rsquo;t compromise on quality. The Oxford Dictionaries API offers easy and intuitive access to Oxfords dictionary content, which is trusted around the world. Here at Oxford Dictionaries, home of the OED, we love words. That&rsquo;s why we have experienced lexicographers tracking the living language, delving deep into our corpora and monitoring a wide range of media in order to understand how words are being used and how language is evolving. This research is used by our editors to write and edit dictionary entries and translations, meaning we&rsquo;re able to offer up-to-date, accurate, and reliable lexical content in multiple languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oxford-dictionaries-api.png",
+			"humanURL": "https://developer.oxforddictionaries.com/",
+			"baseURL": "https://od-api-demo.oxforddictionaries.com:443//api/v1",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/oxford-dictionaries/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vestorly",
+			"x-api-slug": "vestorly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vestorly.png",
+			"humanURL": "http://vestorly.com",
+			"baseURL": "https://staging.vestorly.com//api/v2",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/vestorly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HHS Media Services",
+			"x-api-slug": "hhs-media-services",
+			"description": "Use this API platform to create sites with text and multimedia content for syndication. CDC, FDA, HHS, and NIH have built syndication sites using this platform, which is available in Java and .NET.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png",
+			"humanURL": "https://api.digitalmedia.hhs.gov/",
+			"baseURL": "https://api.digitalmedia.hhs.gov//api/v2",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/hhs-media-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "api.video",
+			"x-api-slug": "api-video",
+			"description": "api.video is a scalable webservice able to encode on the go to facilitate immediate playback, enhancing viewer experiences across multiple devices and platforms. Start within minutes with a well-documented API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg",
+			"humanURL": "https://api.video",
+			"baseURL": "https://ws.api.video//",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/api-video/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LiveChat",
+			"x-api-slug": "livechat",
+			"description": "LiveChat is an offline customer service software with live support, help desk software, and web analytics capabilities.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28877-developers-livechatinc-com.jpg",
+			"humanURL": "https://www.livechatinc.com/",
+			"baseURL": "https://api.livechatinc.com//",
+			"tags": "Sources",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/livechat/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Sources",
+	"include": [
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "BMC Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/bmc-software/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "VersaPay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/versapay/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Pivotal Tracker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/pivotal-tracker/apis.yaml"
+		},
+		{
+			"name": "CallFire",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/callfire/apis.yaml"
+		},
+		{
+			"name": "VMWare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/vmware/apis.yaml"
+		},
+		{
+			"name": "AWS Lambda",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-lambda/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-kinesis-analytics/apis.yaml"
+		},
+		{
+			"name": "AWS Machine Learning",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-machine-learning/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/oxford-dictionaries/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Vestorly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/vestorly/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "HHS Media Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/hhs-media-services/apis.yaml"
+		},
+		{
+			"name": "api.video",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/api-video/apis.yaml"
+		},
+		{
+			"name": "LiveChat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sources/master/_listings/livechat/apis.yaml"
+		}
+	]
+}
